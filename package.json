@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-leafletmap",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This module generates a leaflet map in a new page of a monolithic jhipster application (4.14.1). Generator realized by Hugo GROS-DAILLON and Bastien TERRIER",
   "keywords": [
     "yeoman-generator",
