@@ -1,0 +1,10 @@
+{
+  "generator-jhipster-module": {
+    "promptValues": {
+      "githubName": "HugoSecteur4",
+      "authorName": "Hugo Gros-Daillon & Bastien Terrier",
+      "authorEmail": "gdahugo@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}

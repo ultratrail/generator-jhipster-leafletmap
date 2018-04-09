@@ -1,0 +1,28 @@
+<div>
+    <h2><span>map</span></h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+
+    <div class="leaflet-container leaflet-fade-anim leaflet-grab leaflet-touch-drag" style= "width: 600px; height: 400px; outline: medium none currentcolor;  border-style: solid;  border-color: black;"
+         leaflet
+         [leafletOptions]="options"
+         (leafletMapReady)="onMapReady($event)"
+         [leafletLayersControl]="layersControl">
+    </div>
+<div class="table-responsive" *ngIf="maps">
+    <table class="table table-striped">
+        <thead>
+        <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let map of maps ;trackBy: trackId">
+</tr>
+</tbody>
+</table>
+
+
+
+
+</div>
+</div>

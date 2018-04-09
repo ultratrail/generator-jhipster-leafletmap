@@ -1,0 +1,11 @@
+{
+    "pages": [
+        {
+            "pageName": "map",
+            "pageType": "clientOnly",
+            "fields": []
+        }
+    ],
+    "pageSetGlyphIcon": "",
+    "changelogDate": "20180315130738"
+}
