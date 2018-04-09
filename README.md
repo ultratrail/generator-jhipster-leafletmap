@@ -1,3 +1,5 @@
+![Leaflet MAP](JHipster-LeafletMap-Module.png)
+
 # generator-jhipster-leafletmap
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster module, This module generates a leaflet map in a new page of a monolithic jhipster application (4.14.1 with Angular and TypeScript).
