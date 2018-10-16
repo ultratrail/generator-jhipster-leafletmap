@@ -6,7 +6,7 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService } from 'ng-jhipster';
 import { icon, latLng, marker, point, polyline, tileLayer } from 'leaflet';
 import { Map } from './map.model';
 import { MapService } from './map.service';
-import { Principal } from '../../shared';
+import { Principal } from 'app/core';
 
 @Component({
     selector: 'jhi-map',
@@ -80,7 +80,7 @@ export class MapComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
 
-        this.principal.identity().then((account) => {
+        this.principal.identity().then(account => {
             this.currentAccount = account;
         });
 

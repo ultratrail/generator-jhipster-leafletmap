@@ -191,26 +191,26 @@ module.exports = class extends BaseGenerator {
                     </li>`]
             }, this);
 
-            var angularclipath = `.angular-cli.json`
-            jhipsterUtils.rewriteFile({
-                file: angularclipath,
-                needle: '"favicon.ico"',
-                splicable: [`{
-          "glob": "**/*",
-          "input": "../../../node_modules/leaflet/dist/images",
-          "output": "leaflet/"
-        },`]
-            }, this);
+      //       var angularclipath = `.angular-cli.json`
+      //       jhipsterUtils.rewriteFile({
+      //           file: angularclipath,
+      //           needle: '"favicon.ico"',
+      //           splicable: [`{
+      //     "glob": "**/*",
+      //     "input": "../../../node_modules/leaflet/dist/images",
+      //     "output": "leaflet/"
+      //   },`]
+      // }, this);
 
 
 
             try { //If the extension of the vendor is scss
 
-                jhipsterUtils.rewriteFile({
+                /*({
                     file: angularclipath,
                     needle: '"content/scss/vendor.scss",',
                     splicable: [`        "../../../node_modules/leaflet/dist/leaflet.css"`]
-                }, this);
+                }, this);*/
 
                 var vendorscsspath = `${webappDir}content/scss/vendor.scss`;
                 jhipsterUtils.rewriteFile({
@@ -223,11 +223,11 @@ module.exports = class extends BaseGenerator {
             } catch (e) { //Else if the extension of the vendor is css
 
 
-                jhipsterUtils.rewriteFile({
+              /*  jhipsterUtils.rewriteFile({
                     file: angularclipath,
                     needle: '"content/css/vendor.css",',
                     splicable: [`        "../../../node_modules/leaflet/dist/leaflet.css"`]
-                }, this);
+                }, this);*/
 
                 var vendorscsspath = `${webappDir}content/css/vendor.css`;
                 jhipsterUtils.rewriteFile({

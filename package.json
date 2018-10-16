@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-leafletmap",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "This module generates a leaflet map in a new page of a monolithic and Angular 5 jhipster application (4.14.1).",
   "keywords": [
     "yeoman-generator",
@@ -8,7 +8,7 @@
     "leaflet",
     "leafletmap",
     "angular",
-    "angular5",
+    "angular6",
     "generator-jhipster-leafletmap",
     "jhipster5",
     "jhipster-5"
